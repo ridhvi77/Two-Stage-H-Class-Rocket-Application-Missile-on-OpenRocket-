@@ -111,16 +111,6 @@ Preliminary results from an early run (staging not yet working correctly; update
 <!-- Add plot screenshot: docs/flight-plot.png -->
 ![Flight plot](docs/flight-plot.png)
 
-## Design Review Notes
-
-Observations from reviewing the component data:
-
-- **Heavy for the motors.** About 3 kg of listed components, plus motors, on an H133/H70 pair explains the ~32 m apogee. Reducing payload mass or moving to higher-impulse motors would help most.
-- **Small fins.** Fins are only 3 cm high on a 7.5 cm diameter, 160 cm long rocket. Check the stability margin, especially for the booster after separation (no nose cone, open forward end).
-- **Possible duplicates.** Centering Ring and Centering Ring-2 are identical and both sit at -82 cm. Bulkhead-2 and Bulkhead-4 are identical and both sit at -29.8 cm. This is fine if they are in different stages, but verify against the component tree.
-- **Centering rings have no inner tube.** Their inner diameter is automatic and resolves to 0 cm, so they act as solid discs rather than rings around a motor mount.
-- **Titanium centering rings.** Ti-6Al-4V gives 34.3 g per ring; a lighter material would save mass.
-
 ## How to Run
 
 1. Install [OpenRocket](https://openrocket.info/downloads.html) (Java required).
@@ -153,14 +143,3 @@ Observations from reviewing the component data:
 ![Tube coupler](docs/components/tube-coupler.png)
 ![Fin set](docs/components/fin-set.png)
 
-</details>
-
-## Roadmap
-
-- [ ] Fix staging so the upper stage ignites after booster burnout
-- [ ] Add recovery devices to both stages
-- [ ] Check and improve stability, including after separation
-- [ ] Close or fair the booster's open forward end
-- [ ] Review payload mass and motor choice to raise apogee
-- [ ] Re-run the simulation and update the results table
-- [ ] Add stability margin and motor masses to the design table
