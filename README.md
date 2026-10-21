@@ -14,8 +14,6 @@
 - [Known Issues](#known-issues)
 - [How to Run](#how-to-run)
 - [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [License](#license)
 
 ---
 
