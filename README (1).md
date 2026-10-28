@@ -147,16 +147,6 @@ Observations from reviewing the component data:
 4. Go to **Flight simulations**, select **Simulation 11**, and click **Run**.
 5. Check the **Warnings** and **Plot data** tabs.
 
-## Screenshots
-
-| Design | Motor configuration |
-|---|---|
-| ![Design](docs/design.png) | ![Motors](docs/motors.png) |
-
-| Flight plot | Warnings |
-|---|---|
-| ![Plot](docs/flight-plot.png) | ![Warnings](docs/warnings.png) |
-
 <details>
 <summary>Component dialogs</summary>
 
@@ -180,6 +170,3 @@ Observations from reviewing the component data:
 - [ ] Re-run the simulation and update the results table
 - [ ] Add stability margin and motor masses to the design table
 
-## License
-
-_Choose a license (e.g. MIT) and add a `LICENSE` file._
