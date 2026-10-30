@@ -17,10 +17,6 @@ A two-stage, carbon-fibre rocket designed and simulated in [OpenRocket](https://
 - [Design Review Notes](#design-review-notes)
 - [Known Issues](#known-issues)
 - [How to Run](#how-to-run)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [License](#license)
-
 ---
 
 ## Overview
